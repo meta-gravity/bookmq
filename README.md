@@ -7,11 +7,11 @@ It makes you reflect back on your inspiration. Things you dont want to forget ju
 Combining the design pattern of Mac apps and the style of Pile with new design trends
 
 #### Roadmaps
-[-] Intuitive interface for easy navigation.
+[+] Intuitive interface for easy navigation.
 
-[-] Efficient content organization and retrieval.
+[ ] Efficient content organization and retrieval.
 
-[-] Accessible across various platforms, including offline mode.
+[ ] Accessible across various platforms, including offline mode.
 
 [-] Social sharing and user customization.
 
