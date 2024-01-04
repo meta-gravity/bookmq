@@ -7,26 +7,26 @@ It makes you reflect back on your inspiration. Things you dont want to forget ju
 Combining the design pattern of Mac apps and the style of Pile with new design trends
 
 #### Roadmaps
-[+] Intuitive interface for easy navigation.
+- [X] Intuitive interface for easy navigation.
 
-[ ] Efficient content organization and retrieval.
+- [ ] Efficient content organization and retrieval.
 
-[ ] Accessible across various platforms, including offline mode.
+- [ ] Accessible across various platforms, including offline mode.
 
-[-] Social sharing and user customization.
+- [ ] Social sharing and user customization.
 
-[-] Personalized recommendations and auto-tagging.
+- [ ] Personalized recommendations and auto-tagging.
 
-[-] Content summarization and visual recognition.
+- [ ] Content summarization and visual recognition.
 
-[-] Natural language search for improved functionality.
+- [ ] Natural language search for improved functionality.
 
-[-] Collaboration tools for shared collections.
+- [ ] Collaboration tools for shared collections.
 
-[-] Bookmark import/export and progress tracking.
+- [ ] Bookmark import/export and progress tracking.
 
-[-] Seamless integration with third-party apps.
+- [ ] Seamless integration with third-party apps.
 
-[-] Real-time collaboration and AR integration.
+- [ ] Real-time collaboration and AR integration.
 
-[-] Customizable templates for themed collections.
+- [ ] Customizable templates for themed collections.
