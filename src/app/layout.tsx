@@ -1,8 +1,11 @@
 import type { Metadata } from 'next'
-import { Inter } from 'next/font/google'
+import { GeistMono } from 'geist/font/mono';
 import './globals.css'
+import { ThemeProvider } from '@/components/theme-provider';
+import Navbar from '@/components/Navbar';
+import '@radix-ui/themes/styles.css';
 
-const inter = Inter({ subsets: ['latin'] })
+import { Theme } from '@radix-ui/themes';
 
 export const metadata: Metadata = {
   title: 'Create Next App',
@@ -16,7 +19,19 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={GeistMono.className}>
+        <Theme accentColor="tomato" grayColor="gray" radius="full">
+          <ThemeProvider
+                attribute="class"
+                defaultTheme="system"
+                enableSystem
+                disableTransitionOnChange
+              >
+                <Navbar />
+                {children}
+          </ThemeProvider>
+        </Theme>
+      </body>
     </html>
   )
 }
