@@ -15,16 +15,15 @@ export default function Home() {
           </span>
           { " " } - save, organise and reflect
         </p>
-        <div className='text-xs text-center item-center py-5 px-5'>
-          <input
-            type="email"
-            placeholder="Email"
-            className="w-full px-4 py-2 dark:bg-[#222222] dark:border-[#535353] 
-            ring-[1px] dark:ring-[#2B2B2B] dark:text-[#959595] rounded-sm text-sm 
-            dark:placeholder-[#3F3F3F] bg-[] ring-[#C3C3C3] placeholder-[#2B2B2B]
-            text-[#B5B5B5] "
-          />
-        </div>
+          <div className='text-xs text-center item-center py-5 px-5 sparkle-button'>
+            <input placeholder="email" type="email" />
+            <span className="spark"></span>
+            <span className="backdrop"></span>
+          </div>
+          {/* className="w-full px-4 py-2 dark:bg-[#222222] dark:border-[#535353] 
+              ring-[1px] dark:ring-[#2B2B2B] dark:text-[#959595] rounded-sm text-sm 
+              dark:placeholder-[#3F3F3F] bg-[] ring-[#C3C3C3] placeholder-[#2B2B2B]
+              text-[#B5B5B5] " */}
       </div>
     </MaxWidthWrapper>
   )
